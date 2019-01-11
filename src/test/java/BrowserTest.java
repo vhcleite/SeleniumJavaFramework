@@ -30,7 +30,7 @@ public class BrowserTest {
 		searchBox.sendKeys("Victor Hugo da Costa Leite");
 		searchBox.sendKeys(Keys.ENTER);
 
-		mySleep(5000);
+		mySleep(3000);
 		driver.close();
 	}
 }
